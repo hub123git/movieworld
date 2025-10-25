@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieWorld</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="navbar">
+        <h1>MovieWorld</h1>
+        </div>
+        <div class="container">
+            <div class="movie-list">
+            <div class="movie-container">
+                <h2>The Last Leaf</h2>
+                <h3>O. Henry</h3>
+                <p>In a small apartment in New York, two young artists, Sue and Johnsy, struggle during a harsh winter.
+
+Johnsy falls gravely ill with pneumonia and loses the will to live, believing she will die when the last leaf falls from a vine outside her window.
+
+Their elderly neighbor, Behrman, a failed but kind-hearted artist, hears of her belief.
+
+One night during a storm, he paints a realistic leaf on the wall to give Johnsy hope.
+
+The next day, Johnsy sees the "leaf" still clinging and regains her will to live—while Behrman dies of pneumonia, having fulfilled his greatest masterpiece.</p>
+<button class="delete-btn">Delete</button>
+              </div>
+            </div>
+        <button class="add" id="popup"> + </button>
+        </div>
+        <div class="popup-overlay"></div>
+        <div class="popup-box">
+            <h2>Add book</h2>
+                <form>
+                    <input type="text" placeholder="movie title" id="movie-title">
+                    <input type="text" placeholder="Director" id="director">
+                    <textarea placeholder="Short description" id="short"></textarea>
+                    <button id="add-movie">ADD</button>
+                    <button id="cancel">CANCEL</button>
+                </form>
+            </div>
+        
+            
+    <script src="java.js"></script>
+</body>
+</html>
